@@ -31,10 +31,6 @@ sudo apt upgrade
 ```
 sudo apt install python3-pip
 ```
-### 레포지토리 가져오기
-```
-git clone https://github.com/youtube-jocoding/gpt-bitcoin.git
-```
 ### 서버에서 라이브러리 설치
 ```
 pip3 install -r requirements.txt

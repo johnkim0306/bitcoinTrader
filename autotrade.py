@@ -135,7 +135,9 @@ def execute_sell():
 
 def make_decision_and_execute():
     print("Making decision and executing...")
+    # Retrieve the data
     data_json = fetch_and_prepare_data()
+    # Analayze the data
     advice = analyze_data_with_gpt4(data_json)
 
     try:
